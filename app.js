@@ -20,7 +20,7 @@ var controller = (function(budgetCtrl,UICtrl) {
 
     document.querySelector('.add__btn').addEventListener('click', function() {
         
-        // 1. Get the filed input data
+        // 1. Get the field input data
 
         // 2. Add the item to the budget controller
 
@@ -29,7 +29,7 @@ var controller = (function(budgetCtrl,UICtrl) {
         // 4. Calculate the budget
 
         // 5. Display the budget on the UI
-        
+
     });
 
 
