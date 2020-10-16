@@ -23,6 +23,10 @@ var UIController = (function() {
                 description: document.querySelector(DOMstrings.inputDescription).value,
                 value: document.querySelector(DOMstrings.inputValue).value
             };
+        },
+
+        getDOMstrings: function() {
+            return DOMstrings;
         }
     };
 
