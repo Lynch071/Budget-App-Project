@@ -52,8 +52,6 @@ var controller = (function(budgetCtrl,UICtrl) {
         });
     };
 
-    
-
     var ctrlAddItem = function() {
         
         // 1. Get the field input data
@@ -78,3 +76,5 @@ var controller = (function(budgetCtrl,UICtrl) {
     };
 
 })(budgetController, UIController);
+
+controller.init();
