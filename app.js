@@ -13,7 +13,8 @@ var UIController = (function() {
     var DOMstrings = {
         inputType: '.add__type',
         inputDescription: '.add__description',
-        inputValue: '.add_value' 
+        inputValue: '.add_value',
+        inputBtn: '.add__btn'
     }
 
     return {
@@ -55,7 +56,7 @@ var controller = (function(budgetCtrl,UICtrl) {
 
     }
 
-    document.querySelector('.add__btn').addEventListener('click', ctrlAddItem);
+    document.querySelector(DOM.inputBtn).addEventListener('click', ctrlAddItem);
 
     document.addEventListener('keypress', function (event) {
         
