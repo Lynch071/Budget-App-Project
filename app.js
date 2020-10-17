@@ -181,7 +181,7 @@ var controller = (function(budgetCtrl,UICtrl) {
         budgetCtrl.calculateBudget();
 
         // 2. Return the budget
-
+        var budget = budgetCtrl.getBudget();
 
         // 3. Display the budget on the UI
 
