@@ -144,10 +144,15 @@ var controller = (function(budgetCtrl,UICtrl) {
 
     var updateBudget = function() {
 
-        // 5. Calculate the budget
+        // 1. Calculate the budget
 
-        // 6. Display the budget on the UI
 
+        // 2. Return the budget
+
+
+        // 3. Display the budget on the UI
+
+        
     };
 
     var ctrlAddItem = function() {
