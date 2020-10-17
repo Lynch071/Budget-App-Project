@@ -31,7 +31,7 @@ var budgetController = (function() {
 
             var newItem, ID;
 
-            ID = 0;
+            ID = data.allItems[type][data.allItems[type].length - 1];
 
             if (type === 'exp') {
                 newItem = new Expense(ID, des, val);
@@ -40,7 +40,8 @@ var budgetController = (function() {
             }
 
             data.allItems[type].push(newItem);
-            
+            return newItem;
+
         }
 
     };
