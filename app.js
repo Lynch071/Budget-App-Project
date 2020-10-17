@@ -29,7 +29,7 @@ var budgetController = (function() {
     return {
         addItem: function(type, des,val) {
 
-            var newItem, ID;
+            var newItem, ID, calculateBudget;
             // Create new ID
             if (data.allItems[type].length > 0) {
                 ID = data.allItems[type][data.allItems[type].length - 1].id +1;
@@ -48,7 +48,20 @@ var budgetController = (function() {
             // Return the new element
             return newItem;
 
+        },
+
+        calculateBudget: function() {
+
+            // Calculate total income and expenses
+            
+
+            // Calculate the budget: income - expenses
+
+
+            // Calculate percentage of income that we spent
+
         }
+
     };
 })();
 
