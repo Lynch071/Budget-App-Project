@@ -109,6 +109,9 @@ var UIController = (function() {
 
             fieldsArr = Array.prototype.slice.call(fields);
 
+            fieldsArr.forEach(function(current, index, array) {
+                current.value = "";
+            });
         },
 
         getDOMstrings: function() {
