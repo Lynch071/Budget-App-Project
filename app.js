@@ -61,7 +61,9 @@ var UIController = (function() {
         inputType: '.add__type',
         inputDescription: '.add__description',
         inputValue: '.add_value',
-        inputBtn: '.add__btn'
+        inputBtn: '.add__btn',
+        incomeContainer: '.income__list',
+        expensesContainer: '.expenses__list'
     }
 
     return {
@@ -87,12 +89,13 @@ var UIController = (function() {
             }
 
             // Replace the placeholder text with some actual data
-            
+
             newHtml = html.replace('%id%', obj.id);
             newHtml = newHtml.replace('%description%', obj.description);
             newHtml = newHtml.replace('%value%', obj.value);
 
             // Insert the HTML into the DOM
+
 
 
         },
