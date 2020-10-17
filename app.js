@@ -96,7 +96,7 @@ var UIController = (function() {
 
             // Insert the HTML into the DOM
 
-            document.querySelector(element).
+            document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
 
         },
 
