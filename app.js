@@ -103,11 +103,11 @@ var UIController = (function() {
         },
 
         clearFields: function() {
-            var fields 
+            var fields, fieldsArr; 
 
             fields = document.querySelectorAll(DOMstrings.inputDescription + ', ' + DOMstrings.inputValue);
 
-            Array.prototype.slice.call(fields);
+            fieldsArr = Array.prototype.slice.call(fields);
 
         },
 
