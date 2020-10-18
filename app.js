@@ -235,6 +235,19 @@ var controller = (function(budgetCtrl,UICtrl) {
 
     };
 
+    updatePercentages = function() {
+
+        // 1. Calculate percentages
+
+
+        // 2. Read percentages from the budget controller
+
+
+        // 3. Update the UI with the new percentages
+
+        
+    };
+
     var ctrlAddItem = function() {
         var input, newItem;
         // 1. Get the field input data
