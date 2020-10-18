@@ -245,7 +245,7 @@ var controller = (function(budgetCtrl,UICtrl) {
 
         // 3. Update the UI with the new percentages
 
-        
+
     };
 
     var ctrlAddItem = function() {
@@ -263,8 +263,12 @@ var controller = (function(budgetCtrl,UICtrl) {
             // 4. Clear the fields
             UICtrl.clearFields();
 
-            // Calculate and update budget
+            // 5. Calculate and update budget
             updateBudget();
+
+            // 6. Calculate and update percentages
+
+            
 
         }
     };
