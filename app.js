@@ -197,7 +197,7 @@ var controller = (function(budgetCtrl,UICtrl) {
             }
         });
 
-
+        document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
 
     };
 
@@ -234,6 +234,8 @@ var controller = (function(budgetCtrl,UICtrl) {
 
         }
     };
+
+    
 
     return {
         init: function() {
