@@ -69,6 +69,9 @@ var budgetController = (function() {
 
             index = ids.indexOf(id);
 
+            if (index !== -1) {
+                data.allItems[type].splice(index, 1);
+            }
         },
 
         calculateBudget: function() {
@@ -258,7 +261,7 @@ var controller = (function(budgetCtrl,UICtrl) {
             ID = splitID[1];
 
             // 1. Delete the item from the data structure
-
+            budgetCtrl.deleteItem(type, id);
 
             // 2. Delete the item from the UI
 
